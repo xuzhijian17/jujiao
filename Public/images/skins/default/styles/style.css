@@ -1,0 +1,15 @@
+/*向下箭头*/
+
+#shortcut,#shortcut a{
+	color:#000;
+}
+
+#shortcut .lightBlue{
+	color:#2DAAAE;
+}
+
+#shortcut li dl a{
+	padding:0px 10px;
+	display:block;
+}
+

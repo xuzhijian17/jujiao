@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+#wrap{
+	background: white;
+	width: 960px;
+	margin: auto;
+	border: 1px solid #ccc;
+}
+#login {
+	padding: 10px;
+}
+#login h1 {
+	color: #666;
+	font-size: 20px;
+	padding: 15px;
+	font-weight: normal;
+	border-bottom: 1px solid #eaeaea;
+}
+#login ul{
+	width: 300px;
+	margin:20px 0 30px 40px;
+}
+#login li{
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 0;
+	clear: both;
+}
+#login li span{
+	display: inline-block;
+	width: 60px;
+	float: left;
+}
+#login li input{
+	display: inline-block;
+	height: 25px;
+	border: 1px solid #29ADAD;
+}
+#login li img{
+	float: right;
+	margin-right: 32%;
+	align:"absmiddle";
+}
+#login #submit{
+	margin-top: 10px;
+	margin-left: 60px;
+	width: 142px;
+	height: 46px;
+	background: url(../images/btn.png) no-repeat 0 -48px;
+	border: 0;
+	text-indent: -99999px;
+	cursor:pointer;
+}

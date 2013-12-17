@@ -1,0 +1,111 @@
+#container{
+	background:#E2F1F4;
+}
+
+#shortcut{
+	background:#ececec;
+	border-bottom:1px solid #ccc;
+}
+
+#viewCart{
+	background:url(../images/style.png)  no-repeat -80px -1px;
+}
+
+#seachLeftCorner{
+	background:url(../images/style.png) no-repeat;
+}
+
+#keywords{
+	border-top:1px solid #2CAAAC;
+	border-bottom:1px solid #2CAAAC;
+}
+
+#searchBtn{
+   background:url(../images/style.png) no-repeat -8px top;
+}
+
+#navi{
+	background:#000;	
+}
+
+#navi li a{
+	color:#fff;
+}
+
+#navi li a:hover{
+	background:#2DAAAC;
+}
+
+#navi li a#topMenuTitle{
+	background:url(../images/style.png) no-repeat left -39px;
+}
+
+#mainMenu{
+	background: #fff url(../images/menubg.png) repeat-y right 0;
+}
+
+#mainMenu .menuItem.hover{
+	background: #fff url(../images/menuhover.png) no-repeat 0 0;
+}
+
+.menuItem dd{
+	color: #707070;
+	background:url(../images/dashline.png) repeat-x left bottom;
+}
+
+.menuItem dd a{
+	color: #707070;
+}
+
+.menuItem dt a{
+	color: #333;
+}
+
+#focusSubMenu,#attentionSubMenu{
+	background:#F3F3F3;
+	border:1px solid #ccc;
+	border-top:none;
+}
+
+#focusSubMenu dt a:hover,#attentionSubMenu dd a:hover{
+	color:#fff;
+	background:#15B3B4;
+}
+
+/*cartInfo*/
+
+#cartInfo{
+	background:#fff;
+	border:1px solid #ccc;
+}
+
+
+/*购物车为空*/
+
+#cartEmpty{
+	color:#666;	
+}
+
+#cartFull .cartSingle{
+  border-bottom:1px solid #ccc;
+}
+
+#cartFull .cartSingle .singlePic{
+	border:1px solid #ccc;
+}
+
+#cartFull .cartSingle .singleInfo .singleInfo_salePrice{
+	color: #ed145b;
+}
+
+#cartFull #cartCollectionInfo span strong,#cartFull #cartCollectionInfo span em{
+	color: #ed145b;
+}
+
+#cartFull #cartCollectionInfo .accounts{
+	background:url(../images/cart_btn.jpg);
+}
+
+.border{
+	border:2px solid #ccc;
+}

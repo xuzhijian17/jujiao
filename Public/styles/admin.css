@@ -1,0 +1,78 @@
+
+#menu {
+	width: 300px;
+	margin-left: 5%;
+	float: left;
+	border: 1px solid red;
+}
+
+#warp {
+	width: 800px;
+	height: 1024px;
+	margin-left: 2%;
+	float: left;
+	border: 1px solid blue;
+}
+
+#acticle_manager {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 700px;
+}
+
+#t_header {
+	text-align: center;
+	background: #3C5880;
+}
+
+#id {
+	width: 8%;
+	border: 1px solid black;
+}
+
+#title {
+	width: 40%;
+	border: 1px solid black;
+}
+
+#category {
+	width: 20%;
+	border: 1px solid black;
+}
+
+#browser {
+	width: 12%;
+	border: 1px solid black;
+}
+
+#date {
+	width: 20%;
+	border: 1px solid black;
+}
+
+.t_content {
+	height: 30px;
+	border-bottom: 1px solid gray;
+}
+
+#acticle_manager .num {
+	position: relative;
+	top: 5px;
+}
+
+#acticle_manager .title {
+	text-align: center;
+}
+
+#acticle_manager .category {
+	text-align: center;
+}
+
+#acticle_manager .browser {
+	text-align: center;
+}
+
+#acticle_manager .date {
+	text-align: center;
+}
+

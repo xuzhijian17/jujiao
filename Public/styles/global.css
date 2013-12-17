@@ -1,0 +1,49 @@
+*{
+	font-size:12px;
+	font-family:'宋体';
+}
+
+body,p,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,input,select,label,table,tr,td,th,thead,tbody,tfoot{
+	margin:0px;
+	padding:0px;
+}
+
+ul,ol{
+	list-style:none;
+}
+
+img{
+	border:none;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+
+/*清除浮动*/
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.clearfix{
+	display:inline-block;
+}
+
+* html .clearfix{
+	height:1%;
+}
+
+.clearfix{
+	display:block;
+}
+
+.wrap{
+	width:960px;
+	margin:0px auto;
+}
