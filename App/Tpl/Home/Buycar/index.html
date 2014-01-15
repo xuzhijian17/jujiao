@@ -101,6 +101,17 @@ $(function(){
 </div>
 <!--快捷菜单结束-->
 
+<table>
+	<thead>
+		<th>订单信息</th>
+		<th>收货人</th>
+		<th>订单金额</th>
+	</thead>
+	<tbody>
+		<tr></tr>
+	</tbody>
+</table>
+
 <!--页尾开始-->
 <div id="footer">
 	<div class="wrap clearfix">

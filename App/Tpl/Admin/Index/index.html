@@ -1,45 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Admin</title>
-	<link rel="stylesheet" href="__PUBLIC__/styles/bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="__PUBLIC__/styles/admin.css" />
-</head>
-<body>
-<h1>Admin Page</h1>
+<include file="header" />
 
-<nav id="menu">
-	<ul>
-		<li><a href="">Create</a></li>
-		<li><a href="">Update</a></li>
-		<li><a href="">Read</a></li>
-		<li><a href="">Delete</a></li>
-	</ul>
-</nav>
-<article id="warp">
-	<table id="acticle_manager">
-      	<thead>
-      		<tr id="t_header">
-      			<th id="id">ID</th>
-      			<th id="title">Title</th>
-      			<th id="category">Category</th>
-      			<th id="browser">Browser</th>
-      			<th id="date">Date</th>
-      		</tr>
-      	</thead>
+<div class="main" id="main">
+	<include file="slider" />
+	<include file="main" />
+</div>
 
-	    <tbody>
-	    	<volist name="acticles" id="acticle">
-	    	<tr class="t_content">
-	    		<td class="id"><input type="checkbox" name="id" value="1" />&nbsp;<span class="num">{{$acticle['id']}}</span></td>
-	    		<td class="title"><a href="">{{$acticle['title']}}</a></td>
-	    		<td class="category"><a href="">{{$acticle['category']}}</a></td>
-	    		<td class="browser"><a href="">{{$acticle['browser']}}</a></td>
-	    		<td class="date"><a href="">{{$acticle['date']}}</a></td>
-	    	</tr>
-	    	</volist>
-	    </tbody>
-	</table>
-</article>
-</body>
-</html>
+<include file="footer" />

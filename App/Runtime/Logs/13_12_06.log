@@ -1,2 +1,0 @@
-[ 2013-12-06T14:54:54+08:00 ] ERR: (ThinkException) Model:getAdminData您所请求的方法不存在！
-[ 2013-12-06T16:23:05+08:00 ] ERR: (ThinkException) 无法加载模块:Admin
